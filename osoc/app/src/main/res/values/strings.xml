@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">osoc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">OSOC</string>
+    <string name="nav_header_subtitle">Open for all</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Events</string>
+    <string name="menu_slideshow">Technofania</string>
+    <string name="menu_tools">About</string>
+    <string name="menu_share">Contact us</string>
+    <string name="menu_send">Login</string>
+    <string name="technofania"><![CDATA[<u>TECHNO-FANIA</u>]]></string>
+    <string name="technofaniadesc"><![CDATA[ <b>Technofania</b> , the perfect fusion of masterminds, proves it’s excellence every year with innovation and proactive topping to fresh young minds.
+        This event took its birth in 2017.
+        It is an inter-departmental Technical symposium organized by TEAM OSOC every year.
+        It is a two day extravaganza event in which many technical and non technical events are organized for participants.]]>
+        </string>
+    <string name="workshop"><![CDATA[<u>WORKSHOP</u>]]></string>
+    <string name="workshopdesc"><![CDATA[This event posses a workshop on Web Extensions which will : Let you gain the knowledge of development of add-ons.
+        Creates a new dimension of work for all.
+        Provides you knowledge of how web extensions work.
+About Open Source.
+        How to work on Linux(Ubuntu, Mint, Kali) .
+        Basic knowledge of Linux. Basic commands used in Linux .
+        How Linux is better than windows.
+This workshop taken By Palash Maran and volunteered by MCA 2nd year.]]></string>
+    <string name="projects"><![CDATA[<u>PROJECTS</u>]]></string>
+    <string name="projectsdesc"><![CDATA[Now a days , innovative and impactful project is essential requirement for every student,
+        so if anyone wants to work on real time projects, we are here or you all.
+        Yes, OSOC gives you all , a platform where you can build a project in any domain you want.
+        Every year 4-6 project are made and selected for SANGAM, PRAGYAN HARDWARE HACKATHON to present them in exhibition.
+        Last year we worked on 4 projects and 2 of them MEDICAL ATM and RECALLTHE FORGOTTEN SYSTEM was selected for final round.]]>
+        </string>
+    <string name="aboutus"><![CDATA[We are an open source community initiated by MCA students of NIT Trichy.
+     We learn, work and share the joys of Open source technologies and wish to contribute to the Open Source Society.
+      We also provide an encouraging environment for development and research on Open source software through collaboration with the open source community,
+       business establishments, and other organizations.
+     The community is expected to be a portal for knowledge & education and to forge relationships with the open source world.]]></string>
+    <string name="mission"><![CDATA[MISSION]]></string>
+    <string name="missiondesc"><![CDATA[To use Open source products, spread knowledge and contribute to the Open source society.
+]]></string>
+    <string name="clubhier"><![CDATA[<b>CLUB HIERARCHY</b>]]></string>
+    <string name="clubhierdesc"><![CDATA[Our club has flat structure, and it’s open for all who are keen about open source.
+    The club is fortunate to have Mrs. B Janet as our staff advisor.]]></string>
+    <string name="technologies"><![CDATA[TECHNOLOGIES]]></string>
+    <string name="technologiesdesc"><![CDATA[Firefox Browser, Firefox OS, Moodle, Python, Libre Office, WordPress etc.
+]]></string>
+    <string name="vision"><![CDATA[VISION]]></string>
+    <string name="visiondesc"><![CDATA[Open Community to celebrate Open source technologies
+]]></string>
+    <string name="mission1"><![CDATA[]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">About us</string>
+</resources>

@@ -1,0 +1,5 @@
+<!-- res/drawable/expand_collapse.xml -->
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/side_nav_bar"/>
+
+</transition>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#74000000"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="#70030F08"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="10dp">
+
+        <TextView
+            android:id="@+id/event_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/card_backgroud"
+            android:fontFamily="@font/baumans"
+            android:gravity="center"
+            android:text="TEXT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimary" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:gravity="center"
+        android:text="Roll Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#DC2CFBFB"
+        app:cornerRadius="10dp" />
+
+</LinearLayout>

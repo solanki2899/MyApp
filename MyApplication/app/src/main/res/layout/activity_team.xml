@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/walpaper"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:id="@+id/aboutusdesc"
+                style="@android:style/Widget.Holo.Light.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/unifrakturmaguntia"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="Our Team"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:cardBackgroundColor="#c4bbf0"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingRight="15dp"
+                app:contentPaddingTop="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#c4bbf0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:backgroundTintMode="src_in"
+                        android:paddingStart="30dp"
+                        android:paddingTop="25dp"
+                        android:paddingEnd="25dp"
+                        android:paddingBottom="25dp"
+                        app:srcCompat="@drawable/janet_black" />
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:padding="7dp"
+                        android:text="Staff Advisor : Dr. (Mrs.) B. Janet"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="normal|bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/batch_2020"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/side_nav_bar"
+                android:backgroundTint="#c4bbf0"
+                android:backgroundTintMode="src_in"
+                android:fontFamily="@font/aclonica"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:text="BATCH 2020"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="24sp"
+                app:cornerRadius="10dp"
+                app:iconTint="@color/card_backgroud" />
+
+            <Button
+                android:id="@+id/batch_2021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#c4bbf0"
+                android:backgroundTintMode="src_in"
+                android:fontFamily="@font/aclonica"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:shadowColor="@color/colorAccent"
+                android:text="BATCH 2021"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/batch_2022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#c4bbf0"
+                android:backgroundTintMode="src_atop"
+                android:fontFamily="@font/aclonica"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:shadowColor="@color/colorAccent"
+                android:text="BATCH 2022"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                app:cornerRadius="10dp" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:translationZ="5dp"
+        app:fab_addButtonColorNormal="@color/colorPrimary"
+        app:fab_addButtonColorPressed="@color/colorPrimaryDark"
+        app:fab_addButtonPlusIconColor="#fff"
+        app:fab_labelStyle="@style/customfab">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabcontactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_addButtonSize="mini"
+            app:fab_colorNormal="@color/normal"
+            app:fab_colorPressed="@color/pressed"
+            app:fab_icon="@drawable/ic_contact_phone_black_24dp"
+            app:fab_title="Contact us" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabgallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_addButtonSize="mini"
+            app:fab_colorNormal="@color/normal"
+            app:fab_colorPressed="@color/pressed"
+            app:fab_icon="@drawable/ic_image_black_24dp"
+            app:fab_title="Gallery" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fababoutus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_addButtonSize="mini"
+            app:fab_colorNormal="@color/normal"
+            app:fab_colorPressed="@color/pressed"
+            app:fab_icon="@drawable/ic_people_black_24dp"
+            app:fab_title="About us" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabtechnofania"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_addButtonSize="mini"
+            app:fab_colorNormal="@color/normal"
+            app:fab_colorPressed="@color/pressed"
+            app:fab_icon="@drawable/ic_portrait_black_24dp"
+            app:fab_title="Technofania'20" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabevents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_addButtonSize="mini"
+            app:fab_colorNormal="@color/normal"
+            app:fab_colorPressed="@color/pressed"
+            app:fab_icon="@drawable/ic_event_note_black_24dp"
+            app:fab_title="Events" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>

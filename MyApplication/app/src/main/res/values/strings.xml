@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">osoc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">OPEN SOURCE OPEN COMMUNITY</string>
+    <string name="nav_header_subtitle">Open for all</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Events</string>
+    <string name="menu_slideshow">Technofania</string>
+    <string name="menu_tools">About</string>
+    <string name="menu_share">Contact us</string>
+    <string name="menu_send">Login</string>
+    <string name="technofania"><![CDATA[TECHNO-FANIA]]></string>
+    <string name="technofaniadesc"><![CDATA[ <b>Technofania</b> , the perfect fusion of masterminds, proves its excellence every year with innovation and proactive topping to fresh young minds.
+        <br/><br/>This event took its birth in 2017.
+        It is an inter-departmental Technical symposium organized by TEAM OSOC every year.
+        It is a two day extravaganza event in which many technical and non technical events are organized for participants.]]>
+        </string>
+    <string name="workshop"><![CDATA[<u>WORKSHOP</u>]]></string>
+    <string name="workshopdesc"><![CDATA[In this session, OSOC members conducted a 2 day workshop in the month of October, on Open Source platforms to raise awareness and interest among the students.<br/><br/>
+Students of MCA and M.Sc. were invited to attend it. <br/><br/>They gave a hands-on experience on Linux, Github and Arduino. ]]></string>
+    <string name="projects"><![CDATA[<u>PROJECTS</u>]]></string>
+    <string name="projectsdesc"><![CDATA[Now a days , innovative and impactful project is essential requirement for every student,
+        so if anyone wants to work on real time projects, we are here or you all.<br/><br/>
+        Yes, OSOC gives you all , a platform where you can build a project in any domain you want.<br/><br/>
+        Every year 4-6 project are made and selected for SANGAM, PRAGYAN HARDWARE HACKATHON to present them in exhibition.
+        Last year we worked on 4 projects and 2 of them MEDICAL ATM and RECALL THE FORGOTTEN SYSTEM was selected for final round.]]>
+        </string>
+    <string name="aboutus"><![CDATA[We are an open source community initiated by MCA students of NIT Trichy.<br/>
+     We learn, work and share the joys of Open source technologies and wish to contribute to the Open Source Society.<br/><br/>
+      We also provide an encouraging environment for development and research on Open source software through collaboration with the open source community,
+       business establishments, and other organizations.<br/>
+     The community is expected to be a portal for knowledge & education and to forge relationships with the open source world.]]></string>
+    <string name="mission"><![CDATA[MISSION]]></string>
+    <string name="missiondesc"><![CDATA[To use Open source products, spread knowledge and contribute to the Open source society.
+]]></string>
+    <string name="clubhier"><![CDATA[CLUB HIERARCHY]]></string>
+    <string name="clubhierdesc"><![CDATA[Our club has flat structure, and it is open for all who are keen about open source.
+    The club is fortunate to have <b>Dr.(Mrs.) B Janet</b> as our staff advisor.]]></string>
+    <string name="technologies"><![CDATA[TECHNOLOGIES]]></string>
+    <string name="technologiesdesc"><![CDATA[Firefox Browser, Firefox OS, Moodle, Python, Libre Office, WordPress etc.
+]]></string>
+    <string name="vision"><![CDATA[VISION]]></string>
+    <string name="visiondesc"><![CDATA[Open Community to celebrate Open source technologies.]]></string>
+
+    <string name="agamya_string"><![CDATA[It is project submission event.<br/><br/>It will check your innovativeness and skills.]]></string>
+    <string name="etambola_string"><![CDATA[This is a game of luck.<br/><br/>Luck will lead you to the top of leaderboard.]]></string>
+    <string name="treasure_hunt_string"><![CDATA[Our treasure hunts are information-based puzzle hunts in which teams use their collective brainpower to solve clues.]]></string>
+    <string name="upside_down_string"><![CDATA[This is simple coding event with one twist.]]></string>
+    <string name="bizoku_string"><![CDATA[In the age of digitisation, why should sudoku be left behind?]]></string>
+    <string name="horseman_string"><![CDATA[Lets race!!.<br/>This is the time to test your technical skills and decision making skills.]]></string>
+    <string name="maze_runner_string"><![CDATA[City rush with addictive endless running game!<br/>Rush as fast as you can, Dodge the oncoming cars and obstacles.]]></string>
+    <string name="mystery_puzzle_string"><![CDATA[An event full of mysteries and requires skills to reveal them.<br/><br/>We will test your knowledge in common subjects of your interest.]]></string>
+    <string name="sql_string"><![CDATA[An event where your knowledge in SQL will help you to make it to the top.]]></string>
+    <string name="code_storm_string"><![CDATA[Unleash Your. Programming Skills! Our online coding technology helps you become a rockstar programmer.]]></string>
+    <string name="koda_chrome"><![CDATA[An online submission event in which participant need to make the picture as much funny as possible.]]></string>
+    <string name="techathon_string"><![CDATA[We have seen your technical skills many time.<br/>This is the time to test your technical skills and decision making skills.]]></string>
+    <string name="greedy_queen_string"><![CDATA[An event where each move will lead you to the destination or either a step away from it.<br/><br/>We will test your knowledge in common subjects of your interest.]]></string>
+    <string name="mission1"><![CDATA[]]></string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_us">About us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

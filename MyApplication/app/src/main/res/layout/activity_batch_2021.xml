@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/walpaper"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+
+            <TextView
+                android:id="@+id/aboutusdesc"
+                style="@android:style/Widget.Holo.Light.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/unifrakturmaguntia"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="Batch 2021"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingLeft="25dp"
+                app:contentPaddingRight="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/design_default_color_primary_dark"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/vipin"
+                        tools:srcCompat="@drawable/vipin" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:text="VIPIN KUMAR NIRANJAN"
+                        android:textColor="@color/normal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="252dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingLeft="15dp"
+                app:contentPaddingRight="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp"
+                        app:srcCompat="@drawable/vaibhav"
+                        tools:srcCompat="@drawable/vaibhav" />
+
+                    <TextView
+                        android:id="@+id/textview1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:paddingTop="30dp"
+                        android:text="VAIBHAV VIKAS"
+                        android:textAlignment="center"
+                        android:textColor="@color/normal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingLeft="25dp"
+                app:contentPaddingRight="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp"
+                        app:srcCompat="@drawable/ruchita"
+                        tools:srcCompat="@drawable/ruchita" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="RUCHITA NAGAR"
+                        android:textColor="@color/normal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingLeft="25dp"
+                app:contentPaddingRight="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp"
+                        app:srcCompat="@drawable/swapnil1"
+                        tools:srcCompat="@drawable/swapnil1" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="SWAPNIL GUPTA"
+                        android:textColor="@color/normal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingLeft="25dp"
+                app:contentPaddingRight="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp"
+                        app:srcCompat="@drawable/rohit1"
+                        tools:srcCompat="@drawable/rohit1" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="ROHIT BAIRAGI"
+                        android:textColor="@color/normal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingLeft="25dp"
+                app:contentPaddingRight="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp"
+                        app:srcCompat="@drawable/ankur1"
+                        tools:srcCompat="@drawable/ankur1" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="ANKUR RANA"
+                        android:textColor="@color/normal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingLeft="25dp"
+                app:contentPaddingRight="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp"
+                        app:srcCompat="@drawable/richa"
+                        tools:srcCompat="@drawable/richa" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="RICHA AGARWAL"
+                        android:textColor="@color/normal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/design_default_color_primary_dark"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingLeft="25dp"
+                app:contentPaddingRight="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="30dp"
+                        app:srcCompat="@drawable/kunal"
+                        tools:srcCompat="@drawable/kunal" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baumans"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="KUNAL BHAVSAR"
+                        android:textColor="@color/normal"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>

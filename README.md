@@ -36,8 +36,8 @@ activity from scratch
 ### Custom Dialog Box
 
 There are events cards containing logo and name. I have to display information about the events when image is clicked
-i used custome dialog box for it
-i have almost implementd all the things for it but on clicking second event image it was showing error as 'view is already in parent View'
+I used custom dialog box for it
+I have almost implementd all the things for it but on clicking second event image it was showing error as 'view is already in parent View'
 after googling i found that i have to check for parent view. if it is already created then remove it and create new alert Dialog box.
 
 ### Animation
@@ -64,9 +64,9 @@ same purpose as specified above
 
 ### New things i learnt while making app
 
-Navigation Drawer Activity
-customising Navigation Drawer
-Fragments
+- Navigation Drawer Activity
+- customising Navigation Drawer
+- Fragments
 
 Thanks for Reading
 

@@ -69,4 +69,5 @@ customising Navigation Drawer
 Fragments
 
 Thanks for Reading
+
 Sunil Solanki

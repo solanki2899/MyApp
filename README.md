@@ -49,14 +49,14 @@ my animations in xml file.
 
 ### New key topics i learnt while making the app
 
-Material Design
-Animation
-Fonts
-Card container
-Custom Dialog Box
-Floating Button Menu
-Tabbed Activity
-Efficient use of Nested Scrollbar Layout
+- Material Design
+- Animation
+- Fonts
+- Card container
+- Custom Dialog Box
+- Floating Button Menu
+- Tabbed Activity
+- Efficient use of Nested Scrollbar Layout
 
 
 # OSOC APP
